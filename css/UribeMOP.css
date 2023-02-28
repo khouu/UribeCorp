@@ -1,0 +1,181 @@
+main{
+    margin: 0 150px 0 150px;
+    font-size: 18px;
+    font-family: Armata;
+    display: flex;
+    gap: 0.25rem;
+    flex-direction: row;
+    justify-content: center;
+}
+
+article{
+    width: 550px;
+    margin: 0px 0 0 0;
+    text-align: justify;
+    display: inline;
+}
+
+article h1{
+    width: 500px;
+    margin: 10px 0 30px 0;
+}
+
+article p{
+    margin: 40px 0 0 0;
+    width: 500px;
+}
+
+form input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+form input[type=submit] {
+    width: 100%;
+    background-color: #468189;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+form input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+.activateVar{
+    margin: 10px 0 0 0;
+}
+
+.activateVar span{
+    color: rgb(27, 190, 255);
+}
+
+#opinion{
+    height: 243px;
+  }
+
+#activate{
+    opacity: 0;
+}
+
+#activateInitiate{
+    font-size: 10px;
+    margin: 1px;
+}
+
+#activate:checked + .main-form{
+    opacity: 1;
+    height: auto;
+}
+
+.Form{
+    width: 480px;
+    margin: 32px 0 20px 0;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: #DADAD9;
+    color: #090C08;
+    z-index:3;
+    position: absolute;
+}
+
+img#opinion{
+    position: relative;
+    width: 490px;
+    height: 380px;
+    top: 200px;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.main-form{
+    opacity: 0;
+    height: 1px;
+    transition: 0.1s;
+}
+
+.video{
+    width: 600px;
+    height: auto;
+    text-align: center;
+}
+
+.video h1{
+    text-align: left;
+    margin: 10px 0 45px 0;
+}
+
+figcaption{
+    font-size: 12px
+}
+
+video{
+border-radius: 20px;
+}
+
+aside{
+    width: 600px;
+    position: relative;
+    margin: 0 0 20px 30px;
+}
+
+.overlay-one,
+.overlay-two{
+    position: absolute;
+    width: 100%;
+    color: white;
+    flex-direction: columns;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.overlay-one{
+    top: 510px;
+    left: 0;
+}
+
+.overlay-two{
+    top: 852px;
+    left: 0;
+}
+
+.overlay-one h2,
+.overlay-two h2{
+    margin: 0 0 20px 0;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.overlay-one p,
+.overlay-two p{
+    text-align: justify;
+    padding: 0 10px 0 10px;
+    height: 200px;
+    background-color: rgba(0,0,0,0.6);
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.overlay-one p:hover,
+.overlay-two p:hover{
+    opacity: 1;
+}
+
+.up{
+    margin-top: 50px;
+}
+
+.up img,
+.down img{
+    display: inline;
+    width: 600px;
+    height: 337px;
+    border-radius: 10px;
+}

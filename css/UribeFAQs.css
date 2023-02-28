@@ -1,0 +1,76 @@
+main{
+    margin: 0 150px 0 150px;
+    font-size: 18px;
+    font-family: Armata;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lookup{
+    position: relative;
+    right:325px;
+}
+
+.lookup h1{
+    margin: 10px 0 0 0;
+}
+
+form{
+    width: 480px;
+    padding: 10px 0 20px 0;
+    border-radius: 10px;
+    color: white;
+}
+
+form input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: #242325;
+    color: #090C08;
+    width: 1047px;
+    height: 330px;
+    margin: 0 0 47px 0;
+    border-radius: 10px;
+    padding: 15px 40px;
+}
+
+section nav ul{
+    list-style-type: none;
+}
+
+section nav li{
+    display: inline;
+}
+
+section nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Trebuchet MS';
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    padding: 10px;
+}
+
+section nav a:hover{
+    background-color: #EDE6E3;
+    color: #090C08;
+    border-radius: 10px;
+}
+
+.information{
+    margin: 15px 0 0 0;
+    background-color: #ccc;
+    width: 1040px;
+    height: 260px;
+    border-radius: 10px;
+    padding: 20px;
+}

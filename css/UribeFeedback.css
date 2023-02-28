@@ -1,0 +1,100 @@
+main{
+    margin: 0 150px 0 150px;
+    font-size: 18px;
+    font-family: Armata;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+article{
+    width: 500px;
+    height: 610px;
+}
+
+article h2{
+    margin: 10px 0 0 0;
+}
+
+form{
+    width: 480px;
+    margin: 15px 0 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #DADAD9;
+    color: #090C08;
+}
+
+form input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  form input[type=submit] {
+    width: 100%;
+    background-color: #468189;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  #feed{
+    height: 96px;
+  }
+  
+  form input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+aside{
+    margin: 60px 0 0px 0;
+    height: 600px
+}
+
+aside h2{
+    margin: 15px 0 15px 0;
+}
+
+aside p{
+    width: 260px;
+    text-align: justify;;
+}
+
+figure.vid{
+    display: block;
+}
+
+figure.donate{
+    position: relative;
+}
+
+aside a{
+    color: #00b7ff;
+}
+
+figure.vid video{
+    border-radius: 10px;
+}
+
+figure.donate img{
+    border-radius: 10px;
+    margin: 10px 0 0 0;
+    width: 260px;
+    border: 1px solid black;
+    position: absolute;
+    bottom: -5px;
+    right: -15px;
+}
+
+figure.vid figcaption{
+    text-align: center;
+    font-size: 10px;
+}

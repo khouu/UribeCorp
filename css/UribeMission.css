@@ -1,0 +1,60 @@
+main{
+    margin: 0 150px 0 150px;
+    font-size: 18px;
+    font-family: Armata;
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+}
+
+article{
+    width: 500px;
+    height: auto;
+}
+
+article h1{
+    font-size: 70px;
+    padding: 80px 0 0 0;
+}
+
+article span{
+    color: green;
+}
+
+article p{
+    width: 400px;
+}
+
+article p{
+    text-align: justify;
+}
+
+article figure img{
+    width: 520px;
+    height: 180px;
+    margin: 40px 0 0 0;
+}
+
+aside{
+    width: 600px;
+    height: auto;
+    margin: 25px 0 0 0;
+}
+
+figure img{
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.about-us{
+    height: 150px;
+}
+
+.about-us h2{
+    margin: 10px 0 5px 0;
+}
+
+.about-us p{
+    text-align: justify;
+}
